@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <!--Criando estilos com CSS3-->
+        <style>
+            table,th, td{border: 1px solid #000;}
+            th, td {padding: 7px;}
+
+            .nome {background-color: red;}
+            .e-mail {background-color: green;}
+            .telefone {background-color: blue;}
+            .cargo {background-color: yellow;}
+
+        </style><!--Fecha a estilização com CSS3-->
+        <!--Formatou as colunas por cores diferentes, usando um ponto, seguido pelo nome do titulo defenido (.nome).-->
+
+        <title>Tabelas</title>
+    </head>
+
+    <body>
+        <h1>Tabelas</h1>
+        <!-- Criando uma tabela-->
+        <table>
+        <!--A tag <caption> cria um titulo para a tabela-->
+            <caption>
+                Cadastro de Clientes
+            </caption>
+
+             <colgroup>
+                <col class="nome">
+                <col class="e-mail">
+                <col class="telefone">
+                <col class="cargo">
+            </colgroup>
+            <!-- A tag <tr> Cria uma linha na horizontal da tabela.
+            A primeira linha de uma tabela sempre será o cabeçalho com os titulos-->
+
+            <!--Organizando por seção-->
+            <thead>
+            <!--Cabeçalho da tabela-->
+                <tr>
+                <!--A tag <th> representa um titulo, ou seja, para criar o cabeçalho da tabela,
+                Neste caso temos 3 titulos, que representam as colunas da tabela-->
+                    <th>Nome:</th>
+                    <th>E-mail:</th>
+                    <th>Telefone:</th>
+                    <th>Cargo:</th>
+                    </tr><!--Fecha a linha de cabeçalho-->
+            </thead><!--Fecha a seção de cabeçalho-->
+
+            <!--Organizando por seção-->
+            <tbody>
+            <!--Criando uma segunda linha na horizontal da tabela-->
+                <tr>
+                <!--A tag <td> representa um conteudo, ou dados. A primeira tag <td>, será o conteudo do primeiro titulo da tabela,
+                neste caso, "Nome", a segunda tag <td> será o conteudo do segundo titulo "E-mail", e assim por diante -->
+                    <td>Wanderson</td>
+                    <td>wanderson@wanderson.com.br</td>
+                    <td>(65) 3322-1100 </td>
+                    <td rowspan="2">Desenvolvedor Web</td>
+                    <!--A função "rowspan" ocupa duas ou mais linhas da coluna, formando apenas uma unica linha, para representar
+                    que todos que estão neste são do mesmo cargo-->
+                </tr>
+
+                <!--Criando uma terceira linha na horizontal da tabela-->
+                <tr>
+                <!--A tag <td> representa um conteudo, ou dados. A primeira tag <td>, será o conteudo do primeiro titulo da tabela,
+                neste caso, "Nome", a segunda tag <td> será o conteudo do segundo titulo "E-mail", e assim por diante -->
+                    <td>Jeane</td>
+                    <td>jeane@jeane.com.br</td>
+                    <td>(65) 2121-0000 </td>
+                </tr>
+            </tbody>
+
+            <!--Organizando por seção-->
+            <!--A tag <tfoot> é como um rodapé-->
+            <tfoot>
+                <tr>
+                <!--A função "colspan" forma uma unica linha sem as divisões na tabela, neste caso, como a tabela tem 4 colunas,
+                essa função forma uma unica linha prenchendo as 4 colunas, caso a tabela tivesse mais colunas, é só aumentar de 4 para
+                a qtd de colunas existente na tabela-->
+                    <td colspan="4">Total: 2</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+    </body>
+</html>

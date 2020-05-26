@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--Define que o codigo HTML será desenvolvido na lingua portuguesa do Brasil-->
+<html lang="pt-br">
+<head>
+    <!--Define que a págiana web aceitará acentuações da lingua portuguesa do Brasil-->
+    <meta charset="UTF-8">
+
+    <!--Meta tag descrevendo o que se trata neste site,
+    isso ajudam a rankiar o site pelo Google, são metodos utilizados por um SEO -->
+    <meta name="Description" content="Udemy - Curso de HTML5 & CSS3 Completo">
+
+    <!--Meta tags keywords ajudam a rankiar o site pelo Google, são metodos de um SEO -->
+    <meta keywords="como criar um site, como fazer um site, curso de HTML5, curso de CSS3">
+
+    <!--Nome da página que aparecerá na aba do navegador-->
+    <title>Aula 7: Formulário Com Tabela Sem Bordas - Parte 1</title>
+</head>
+<body>
+
+<!--Criando um formulario e simulando que ele esteja em script/envio.php com metodo post-->
+<form action="script/envio.php" method="post">
+    <p>Criando um formulário em formato de tabela sem bordas - Parte 1</p>
+
+    <!--Criando a tabela dentro do formulario-->
+    <table border="0"><!--Pode ser colocado bordas diferentes-->
+
+        <!--A tag <tr> cria uma linha e a tag </tr> fecha uma linha-->
+        <!--A tag <td> cria uma coluna e a tag </td> fecha uma coluna-->
+        <tr><!--Linha 1-->
+            <td><label>Nome:</td><!--Linha 1, Coluna 1-->
+            <!--Define a tag label do Tipo texto-->
+            <td><input type="text" name="nome"></label></td><!--Linha 1, Coluna 2-->
+        </tr><!--Fechamento da Linha 1-->
+
+
+        <tr><!--Linha 2-->
+            <td><label>Sobrenome:</td><!--Linha 2, Coluna 1-->
+            <!--Define a tag label do Tipo texto-->
+            <td><input type="text" name="lastname"></label></td><!--Linha 2, Coluna 2-->
+        </tr><!--Fechamento da Linha 2-->
+
+
+        <tr><!--Linha 3-->
+            <td><label>Endereço: </td><!--Linha 3, Coluna 1-->
+            <!--Define a tag label do Tipo texto-->
+            <td><input type="text" name="endereco"></label></td><!--Linha 3, Coluna 2-->
+        </tr><!--Fechamento da Linha 3-->
+
+
+        <tr><!--Linha 4-->
+            <td><tlabel>E-mail:</td><!--Linha 4, Coluna 1-->
+            <!--Define a tag label do Tipo email-->
+            <td><input type="email" name="email"></label></td><!--Linha 4, Coluna 2-->
+        </tr><!--Fechamento da Linha 4-->
+
+        <tr><!--Linha 5-->
+            <td><label>CEP:</td> <!--Linha 5, Coluna 1-->
+            <!--Define a tag label do Tipo numerico-->
+            <td><input type="number" name="cep"></label></td> <!--Linha 5, Coluna 2-->
+        </tr><!--Fechamento da Linha 5-->
+
+        <tr><!--Linha 6-->
+            <td><label>Data de Nascimento: </td> <!--Linha 6, Coluna 1-->
+            <!--Define a tag label do Tipo data-->
+            <td><input type="date" name="nasc"></label></td> <!--Linha 6, Coluna 2-->
+        </tr><!--Fechamento da Linha 6-->
+
+        <tr><!--Linha 7-->
+            <td><label>Senha: </td> <!--Linha 7, Coluna 1-->
+            <!--Define a tag label do Tipo senha escondida com *-->
+            <td><input type="password" name="senha"></label></td> <!--Linha 7, Coluna 2-->
+        </tr><!--Fechamento da Linha 7-->
+
+
+        <tr><!--Linha 8-->
+            <td><label>Confirme sua senha: </td> <!--Linha 8, Coluna 1-->
+            <!--Define a tag label do Tipo senha escondida com *-->
+            <td><input type="password" name="confsenha"></label></td> <!--Linha 8, Coluna 2-->
+        </tr><!--Fechamento da Linha 8-->
+
+
+        <tr><!--Linha 9-->
+            <!--Botão para enviar os dados para o script/envio.php-->
+            <td><input type="submit" name="envia" value="Enviar"></td><!--Linha 9, Coluna 1-->
+
+            <!--Botão para limpar a tela e resetar os dados que estava preenchido no formulário-->
+            <td><input type="reset" name="reset" value="Limpar"></td> <!--Linha 9, Coluna 2-->
+        </tr><!--Fechamento da Linha 9-->
+
+    </table>
+</form>
+
+</body>
+</html>

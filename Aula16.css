@@ -1,0 +1,95 @@
+/*
+    header = é o cabeçalho
+ */
+header{
+    background: grey;
+    position: relative;
+    height: 60px;
+    border-radius: 0px 0px 30px 30px;/* Border-radius define o quanto aredondado vc precisa nas bordas,
+                                        os dois primeiros 0px (esqueda) e 0px (direita) refere-se a parte
+                                        de cima e os outros dois a parte de baixo
+                                        */
+
+}
+
+/*
+    nav = é o menu
+ */
+nav{
+    background: grey;
+    position: absolute;
+    height: 45px; width: 350px;
+    right: 100px; left: 0px;
+    top: 120px;
+    border-radius: 10px 40px;/* Border-radius define o quanto aredondado vc precisa nas bordas */
+
+
+}
+
+/*
+    nav:hover = define a cor de fundo do menu
+ */
+nav:hover{
+    background: aqua;
+}
+
+/*
+    nav ul = define o formato do menu, tamanho da fonte
+ */
+nav ul{
+    font-style: italic;
+    text-transform: uppercase;
+
+}
+
+/*
+    nav ul:hover = define a cor de fundo do nav ul, ou seja, define a cor do meio do meu
+ */
+nav ul:hover{
+    background: red;
+
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+
+
+}
+
+/*
+Define a cor quando passamos o mouse sobre o menu
+ */
+nav li:hover{
+    background: yellow;
+}
+
+/*
+    article = é o conteiner do site, onde é colocado os artigos etc.
+*/
+article{
+    background: gray;
+    position: relative;
+    height: 550px; width: 710px;
+    left: 400px;
+    top: 5px;
+    border-radius: 50px 50px 30px 30px;/* Border-radius define o quanto aredondado vc precisa nas bordas */
+
+}
+
+footer{
+    background: gray;
+    position: relative;
+    height: 70px;
+    border: none;
+    border-radius: 70px 70px 0px 0px;/* Border-radius define o quanto aredondado vc precisa nas bordas */
+
+}
+
+body{
+    position: relative;
+    height: 200px; width: 1110px;
+    left: 100px;
+    background: lightgrey;
+
+}

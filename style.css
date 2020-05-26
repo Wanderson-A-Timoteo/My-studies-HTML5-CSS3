@@ -1,0 +1,144 @@
+/* Meu primeiro arquivo CSS */
+
+/* Definindo p{} em CSS vc altera tudo que estiver dentro da chave {} */
+p{
+    /*  Altera a cor de texto definido pela tag<p> no codigo htmt */
+    color: #FFFFFF;
+
+    /*  Altera a cor de fundo apenas das linhas da pagina definidas pela tag<p>
+    background-color: white;*/
+
+    /* Altera o tamanho da fonte em pixels */
+    font-size: 15px;
+
+    /* Altera a fonte do texto.
+     Tudo que estiver escrito dentro das tags<p> */
+    font-family: asdf, Arial, "Times New Roman";
+
+    /* A função (text-shadow) aplica uma sombra no texto e
+       (#111111) define a cor da sombra como preto*/
+    text-shadow: 1px 1px 1px #111111;
+
+}
+
+/* Definindo a body{} em CSS vc altera tudo que estiver dentro da chave {} */
+body{
+    /*  Altera a cor de fundo da pagina  */
+    background-color: #000000;
+}
+/* O seletor (*) aplica em toda a pagina as alterações */
+*{
+    margin: 0;
+    padding: 0;
+    /* O seletor (*) remove os espaçamentos */
+    font-family: Helvetica, Arial;
+
+
+}
+
+header{
+    background-color: #35b8b0;
+    height: 70px;
+    padding: 20px;
+
+}
+
+/* Altera a cor da tag<div> definida.
+   A declaração (min-height) define o tamanho inicial da div e vai aumentando conforme é inserido mais informações
+   A declaração (width) define a largura da div.
+   A declaração (float: left) enquadra a div a esquerda.
+   A declaração (float: right) enquadra a div a direita.
+ */
+
+/* IDs */
+#principal{
+    /*A função (clear: both) foi incluida devido a função (float) em #logo e em #menu */
+    clear: both;
+    background-image: url("img/City of london 2019.jpg");
+    background-size: 100%;
+    min-height: 400px;
+    padding: 90px 0 0 0;
+
+}
+#logo{
+    float: left;
+}
+
+#menu{
+    /*A função (margin-top) deixa uma margem do topo do menu */
+    margin-top: 30px;
+    float: right;
+}
+/*Nesta função pegamos todos os links que estão apenas dentro do id=menu */
+#menu a{
+    padding: 50px 20px;
+    text-decoration: none;
+    color: #111111;
+    text-shadow: 1px 1px #111111;
+}
+
+/*A função a:hover altera o background de sobreposição, quando passar o mouse ele vai alterar a cor */
+#menu a:hover{
+    background-color: #111111;
+    color: #35b8b0;
+}
+
+h1{
+    /* A função (color) altera a cor de texto */
+    color: #FF7F50;
+
+    /* Esta função Centraliza o texto da Tag(h1) */
+    text-align: center;
+
+    /* A função (padding) altera as margens sendo os numeros respectivamente: cima, direita, baixo e esquerda */
+    padding: 0 0 50px 0;
+
+    /* A função (text-shadow) aplica uma sombra no texto e
+       (#111111) define a cor da sombra como preto*/
+    text-shadow: 1px 1px 1px #111111;
+}
+
+
+/* A função (footer) é o rodapé da pagina web
+    Alterando o rodapé da pagina web */
+footer{
+    /* Sempre que temos um float na div precisamos do (clear: both) para limpar e aparecer o footer (rodapé) */
+    clear: both;
+
+    background-color: #35b8b0;
+
+    /* Alterando o tamanho do rodapé*/
+    height: 50px;
+
+    /* Esta função centraliza o texto do rodapé */
+    text-align: center;
+
+    /* Altera o espaçamento do texto de rodapé */
+    padding: 10px;
+
+    /* A função (text-shadow) aplica uma sombra no texto e
+       (#111111) define a cor da sombra como preto
+    text-shadow: 1px 1px 1px #111111;*/
+
+    /* A finção (font-size) define o tamanho da letra */
+    font-size: 12px;
+}
+
+/* Class */
+.container{
+    /* Largura do container */
+    width: 960px;
+
+    /* Para posicionar no centro */
+    margin: 0 auto;
+
+}
+
+
+.efeito{
+    /* A função (background-color: rgba(0, 0, 0, 0.5))
+     cria um efeito Alpha, ou seja, uma especie de transparencia */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 80px 0 80px 0;
+}
+

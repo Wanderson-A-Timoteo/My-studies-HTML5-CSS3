@@ -1,0 +1,69 @@
+header{
+    background: grey;
+    position: relative;
+    height: 60px;
+
+}
+
+nav{
+    background: grey;
+    position: absolute;
+    height: 45px; width: 350px;
+    right: 100px; left: 0px;
+    top: 120px;
+
+}
+
+nav:hover{
+    background: aqua;
+}
+
+nav ul{
+    font-style: italic;
+    text-transform: uppercase;
+
+}
+
+nav ul:hover{
+    background: red;
+
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+
+
+}
+
+/*
+Define a cor quando passamos o mouse sobre o menu
+ */
+nav li:hover{
+    background: yellow;
+}
+
+article{
+    background: gray;
+    position: relative;
+    height: 550px; width: 710px;
+    left: 400px;
+    top: 5px;
+
+}
+
+footer{
+    background: gray;
+    position: relative;
+    height: 70px;
+    border: none;
+
+}
+
+body{
+    position: relative;
+    height: 200px; width: 1110px;
+    left: 100px;
+    background: lightgrey;
+
+}

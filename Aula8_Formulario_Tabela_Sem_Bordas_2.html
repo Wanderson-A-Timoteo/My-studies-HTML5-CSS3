@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--Define que o codigo HTML será desenvolvido na lingua portuguesa do Brasil-->
+<html lang="pt-br">
+<head>
+    <!--Define que a págiana web aceitará acentuações da lingua portuguesa do Brasil-->
+    <meta charset="UTF-8">
+
+    <!--Meta tag descrevendo o que se trata neste site,
+    isso ajudam a rankiar o site pelo Google, são metodos utilizados por um SEO -->
+    <meta name="Description" content="Udemy - Curso de HTML5 & CSS3 Completo">
+
+    <!--Meta tags keywords ajudam a rankiar o site pelo Google, são metodos de um SEO -->
+    <meta keywords="como criar um site, como fazer um site, curso de HTML5, curso de CSS3">
+
+    <!--Nome da página que aparecerá na aba do navegador-->
+    <title>Aula 8: Formulário Com Tabela Sem Bordas - Parte 2</title>
+</head>
+<body>
+
+<!--Criando um formulario e simulando que ele esteja em script/envio.php com metodo post-->
+<form action="script/envio.php" method="post">
+    <h3>O código esta com erro porque não tem a tag label iniciando e fechando os inputs</h3>
+    <h3>Porém o código foi escrito da mesma forma que o instrutor da Udemy</h3>
+    <p>Criando um formulário em formato de tabela sem bordas - Parte 2</p>
+    <p>Definindo a largura (width=1px), pra deixar mais proximos as duas colunas</p>
+    <p>Criando um campo para comentários do usuario com a tag textarea </p>
+    <p>Definindo a função "placeholder" para a descrição de cada "input" </p>
+    <p>Definindo o input do Tipo radio para marcação da bolinha, assim pode ser
+        marcado apenas uma opção, <strong>porém esta com erro, pois marca mais de uma opção</strong></p>
+    <p>Definindo o input do Tipo checkbox para seleção de uma ou mais opções dos quadradinhos</p>
+
+
+    <!--Criando a tabela dentro do formulario-->
+    <table border="0"><!--Pode ser colocado bordas diferentes-->
+
+        <!--A tag <tr> cria uma linha e a tag </tr> fecha uma linha-->
+        <!--A tag <td> cria uma coluna e a tag </td> fecha uma coluna-->
+        <tr><!--Linha 1-->
+            <td width="1px"><label>Nome:</td><!--Linha 1, Coluna 1-->
+            <!--Define a tag label do Tipo texto-->
+            <td><input type="text" name="nome" placeholder="Digite seu primeiro nome"></label></td><!--Linha 1, Coluna 2-->
+        </tr><!--Fechamento da Linha 1-->
+
+
+        <tr><!--Linha 2-->
+            <td><label>Sobrenome:</td><!--Linha 2, Coluna 1-->
+            <!--Define a tag label do Tipo texto-->
+            <td><input type="text" name="lastname" placeholder="Digite seu sobrenome"></label></td><!--Linha 2, Coluna 2-->
+        </tr><!--Fechamento da Linha 2-->
+
+
+        <tr><!--Linha 3-->
+            <td><label>Endereço: </td><!--Linha 3, Coluna 1-->
+            <!--Define a tag label do Tipo texto-->
+            <td><input type="text" name="endereco" placeholder="Digite seu endereço"></label></td><!--Linha 3, Coluna 2-->
+        </tr><!--Fechamento da Linha 3-->
+
+
+        <tr><!--Linha 4-->
+            <td><tlabel>E-mail:</td><!--Linha 4, Coluna 1-->
+            <!--Define a tag label do Tipo email-->
+            <td><input type="email" name="email" placeholder="Digite seu E-Mail"></label></td><!--Linha 4, Coluna 2-->
+        </tr><!--Fechamento da Linha 4-->
+
+        <tr><!--Linha 5-->
+            <td><label>CEP:</td> <!--Linha 5, Coluna 1-->
+            <!--Define a tag label do Tipo numerico-->
+            <td><input type="number" name="cep" placeholder="Digite apenas números"></label></td> <!--Linha 5, Coluna 2-->
+        </tr><!--Fechamento da Linha 5-->
+
+        <tr><!--Linha 6-->
+            <td><label>Data de Nascimento: </td> <!--Linha 6, Coluna 1-->
+            <!--Define a tag label do Tipo data-->
+            <td><input type="date" name="nasc"></label></td> <!--Linha 6, Coluna 2-->
+        </tr><!--Fechamento da Linha 6-->
+
+        <tr><!--Linha 7-->
+            <td><label>Senha: </td> <!--Linha 7, Coluna 1-->
+            <!--Define a tag label do Tipo senha escondida com *-->
+            <td><input type="password" name="senha" placeholder="Digite uma senha"></label></td> <!--Linha 7, Coluna 2-->
+        </tr><!--Fechamento da Linha 7-->
+
+
+        <tr><!--Linha 8-->
+            <td><label>Confirme sua senha: </td> <!--Linha 8, Coluna 1-->
+            <!--Define a tag label do Tipo senha escondida com *-->
+            <td><input type="password" name="confsenha" placeholder="Digite a senha novamente"></label></td> <!--Linha 8, Coluna 2-->
+        </tr><!--Fechamento da Linha 8-->
+
+        <!--RADIO-->
+        <tr><!--Linha 9-->
+            <td><label>Documento: </label></td> <!--Linha 9, Coluna 1-->
+            <!--Define o input do Tipo radio para aparecer uma bolinha que pode ser marcada-->
+            <td>
+                CPF: <input type="radio" name="opcao" value="CPF">
+                CNPJ: <input type="radio" name="opcao" value="CNPJ">
+            </td>
+        </tr><!--Fechamento da Linha 9-->
+
+        <!--CHECKBOX-->
+        <tr><!--Linha 10-->
+            <td><label>Passa tempo: </label></td> <!--Linha 10, Coluna 1-->
+            <!--Define o input do Tipo checkbox para aparecer um quadradinho
+            que pode ser marcada varias opções-->
+            <td>Jogar Bola: <input type="checkbox" name="bola">
+                Jogar Video Game: <input type="checkbox" name="game">
+                Jogar Cartas: <input type="checkbox" name="cartas">
+                Jogar Dominó: <input type="checkbox" name="domino">
+                Ler: <input type="checkbox" name="ler">
+            </td><!--Linha 10, Coluna 2-->
+        </tr><!--Fechamento da Linha 10-->
+
+        <!--Criando um campo para comentários do usuario com a tag <textarea> -->
+        <tr><!--Linha 11-->
+            <td><label>Deixe sua Mensagem</label></td><!--Linha 11, Coluna 1-->
+            <td><textarea></textarea></td> <!--Linha 11, Coluna 2-->
+        </tr><!--Fechamento da Linha 11-->
+
+        <tr><!--Linha 12-->
+            <!--Botão para enviar os dados para o script/envio.php-->
+            <td><input type="submit" name="envia" value="Enviar"></td><!--Linha 12, Coluna 1-->
+
+            <!--Botão para limpar a tela e resetar os dados que estava preenchido no formulário-->
+            <td><input type="reset" name="reset" value="Limpar"></td> <!--Linha 12, Coluna 2-->
+        </tr><!--Fechamento da Linha 12-->
+
+    </table>
+</form>
+
+</body>
+</html>

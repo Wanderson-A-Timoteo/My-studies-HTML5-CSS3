@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--Define que o codigo HTML será desenvolvido na lingua portuguesa do Brasil-->
+<html lang="pt-br">
+<head>
+    <!--Define que a págiana web aceitará acentuações da lingua portuguesa do Brasil-->
+    <meta charset="UTF-8">
+
+    <!--Meta tag descrevendo o que se trata neste site,
+    isso ajudam a rankiar o site pelo Google, são metodos utilizados por um SEO -->
+    <meta name="Description" content="Udemy - Curso de HTML5 & CSS3 Completo">
+
+    <!--Meta tags keywords ajudam a rankiar o site pelo Google, são metodos de um SEO -->
+    <meta keywords="como criar um site, como fazer um site, curso de HTML5, curso de CSS3">
+
+    <!--Nome da página que aparecerá na aba do navegador-->
+    <title>Aula 5: Formulários</title>
+</head>
+<body>
+
+    <!--Criando um formulario e simulando que ele esteja em script/envio.php com metodo post-->
+    <form action="script/envio.php" method="post">
+        <p>Criando um formulário</p>
+
+        <!--Tipo texto-->
+        <label>Nome: <input type="text" name="nome"></label><br>
+        <label>Sobrenome: <input type="text" name="lastname"></label><br>
+        <label>Endereço: <input type="text" name="endereco"></label><br>
+
+        <!--Tipo email-->
+        <label>E-mail: <input type="email" name="email"></label><br>
+
+        <!--Tipo numerico-->
+        <label>CEP: <input type="number" name="cep"></label><br>
+        <label>Data de Nascimento: <input type="date" name="nasc"></label><br>
+
+        <!--Tipo senha escondida com *-->
+        <label>Senha: <input type="password" name="senha"></label><br>
+        <label>Confirme sua senha: <input type="password" name="confsenha"></label><br>
+
+        <!--Botão para enviar os dados para o script/envio.php-->
+        <input type="submit" name="envia" value="Enviar">
+
+        <!--Botão para limpar a tela e resetar os dados que estava preenchido no formulário-->
+        <input type="reset" name="reset" value="Limpar">
+    </form>
+
+</body>
+</html>

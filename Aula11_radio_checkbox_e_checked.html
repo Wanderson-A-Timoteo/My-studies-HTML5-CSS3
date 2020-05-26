@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--Define que o codigo HTML será desenvolvido na lingua portuguesa do Brasil-->
+<html lang="pt-br">
+<head>
+    <!--Define que a págiana web aceitará acentuações da lingua portuguesa do Brasil-->
+    <meta charset="UTF-8">
+
+    <!--Meta tag descrevendo o que se trata neste site,
+    isso ajudam a rankiar o site pelo Google, são metodos utilizados por um SEO -->
+    <meta name="Description" content="Udemy - Curso de HTML5 & CSS3 Completo">
+
+    <!--Meta tags keywords ajudam a rankiar o site pelo Google, são metodos de um SEO -->
+    <meta keywords="como criar um site, como fazer um site, curso de HTML5, curso de CSS3">
+
+    <!--Nome da página que aparecerá na aba do navegador-->
+    <title>Aula 11: Radio e Checkbox</title>
+</head>
+    <body>
+        <p>RADIO: quando marcado só é desmarcado quando outro botão de mesmo TYPE e NAME é selecionado</p>
+
+        <P>CHECKBOX: É UM tipo de INPUT que permite um ou mais de uma opção de mesmo TYPE e NAME sejam
+            selecionadas</P>
+
+        <p>CHECKED: é um atributo não obrigatório para os INPUTS tipo CHECKBOX e RADIO,
+            e que permite a seleção de uma opção automaticamente</p>
+
+        <!--Criando um formulario e simulando que ele esteja em script/envio.php com metodo post-->
+        <form action="script/envio.php" method="post">
+            <!--Criando a tabela dentro do formulario-->
+            <table border="0"><!--Pode ser colocado bordas diferentes-->
+
+                <!--RADIO-->
+                <tr><!--Linha 9-->
+                    <td><label>RADIO: </label></td> <!--Linha 9, Coluna 1-->
+
+                    <!--Define o input do Tipo radio para aparecer uma bolinha que pode ser marcada-->
+                    <td>CPF: <input type="radio" name="opcao" value="CPF" required="required">
+                        RG: <input type="radio" name="opcao" value="RG" required="required">
+                        CIC: <input type="radio" name="opcao" value="CIC" required="required">
+                        CNPJ: <input type="radio" name="opcao" value="CNPJ" required="required"></td>
+                </tr><!--Fechamento da Linha 9-->
+                <br>
+                <br>
+
+                <!--CHECKBOX-->
+                <tr><!--Linha 10-->
+                    <td><label>CHECKBOX: </label></td> <!--Linha 10, Coluna 1-->
+
+                    <!--Define o input do Tipo checkbox para aparecer um quadradinho
+                    que pode ser marcada varias opções-->
+                    <td>Jogar Bola: <input type="checkbox" name="bola" required="required">
+                        Jogar Video Game: <input type="checkbox" name="game" required="required">
+                        Jogar Cartas: <input type="checkbox" name="cartas" required="required">
+                        Jogar Dominó: <input type="checkbox" name="domino" required="required">
+                        Ler: <input type="checkbox" name="ler" required="required">
+                    </td><!--Linha 10, Coluna 2-->
+                </tr><!--Fechamento da Linha 10-->
+                <br>
+                <br>
+
+                <tr>
+                    <td><label>CHECKED: </label></td>
+                    <!--CHECKED é um atributo não obrigatório para os INPUTS tipo CHECKBOX e RADIO,
+                    e que permite a seleção de uma opção automaticamente-->
+                    <td>
+                        <input type="checkbox" name="opcao" value="op1"> opcao1
+                        <input type="checkbox" name="opcao" value="op2" CHECKED> opcao2
+                        <input type="checkbox" name="opcao" value="op3"> opcao3
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,127 @@
+/* Meu primeiro arquivo CSS */
+
+/* Definindo p{} em CSS vc altera tudo que estiver dentro da chave {} */
+p{
+    /*  Altera a cor de texto definido pela tag<p> no codigo htmt */
+    color: #FFFFFF;
+
+    /*  Altera a cor de fundo apenas das linhas da pagina definidas pela tag<p>
+    background-color: white;*/
+
+    /* Altera o tamanho da fonte em pixels */
+    font-size: 15px;
+
+    /* Altera a fonte do texto.
+     Tudo que estiver escrito dentro das tags<p> */
+    font-family: asdf, Arial, "Times New Roman";
+
+    /* A função (text-shadow) aplica uma sombra no texto e
+       (#111111) define a cor da sombra como preto*/
+    text-shadow: 1px 1px 1px #111111;
+
+    /* Esta função Centraliza o texto da Tag(h1) */
+    text-align: center;
+
+}
+
+/* Definindo a body{} em CSS vc altera tudo que estiver dentro da chave {} */
+body{
+    /*  Altera a cor de fundo da pagina  */
+    background-color: #000000;
+}
+/* O seletor (*) aplica em toda a pagina as alterações */
+*{
+    margin: 0;
+    padding: 0;
+    /* O seletor * remove os espaçamentos */
+    font-family: Helvetica, Arial;
+
+
+}
+
+header{
+    background-image: url("img/logo-leao.jpg");
+    background-color: #35b8b0;
+    height: 50px;
+    padding: 30px 30px 30px 30px;
+
+}
+
+/* Altera a cor da tag<div> definida.
+   A declaração (min-height) define o tamanho inicial da div e vai aumentando conforme é inserido mais informações
+   A declaração (width) define a largura da div.
+   A declaração (float: left) enquadra a div a esquerda.
+   A declaração (float: right) enquadra a div a direita.
+ */
+
+/* IDs
+    A função (height) aumenta o tamanho e a função (min-height) aumenta de tamanho
+    a medida que forem incluindo conteúdo */
+#principal{
+
+    background-image: url("img/Cuiaba.jpg");
+    background-size: 80%;
+    min-height: 100px;
+    padding: 100px 0px 90px 0px;
+
+
+}
+
+h1{
+    /* A função (color) altera a cor de texto */
+    color: #FF7F50;
+
+    /* Esta função Centraliza o texto da Tag(h1) */
+    text-align: center;
+
+    /* A função (padding) altera as margens sendo os numeros respectivamente: cima, direita, baixo e esquerda */
+    padding: 0px 0 50px 0;
+
+    /* A função (text-shadow) aplica uma sombra no texto e
+       (#111111) define a cor da sombra como preto*/
+    text-shadow: 1px 1px 1px #111111;
+}
+
+
+/* A função (footer) é o rodapé da pagina web
+    Alterando o rodapé da pagina web */
+footer{
+    /* Sempre que temos um float na div precisamos do (clear: both) para limpar e aparecer o footer (rodapé) */
+    clear: both;
+
+    background-color: #FFFFFF;
+
+    /* Alterando o tamanho do rodapé */
+    height: 50px;
+
+    /* Esta função centraliza o texto do rodapé */
+    text-align: center;
+
+    /* Altera o espaçamento do texto de rodapé */
+    padding: 20px;
+
+    /* A função (text-shadow) aplica uma sombra no texto e
+       (#111111) define a cor da sombra como preto
+    text-shadow: 1px 1px 1px #111111;*/
+
+    /* A finção (font-size) define o tamanho da letra */
+    font-size: 12px;
+}
+
+/* Class */
+.container{
+    /* Largura do container */
+    width: 0 960px;
+
+    /* Para posicionar no centro */
+    margin: 0 auto;
+
+}
+
+
+.efeito{
+    /* A função (background-color: rgba(0, 0, 0, 0.5))
+     cria um efeito Alpha, ou seja, uma especie de transparencia */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 80px 0 80px 0;
+}

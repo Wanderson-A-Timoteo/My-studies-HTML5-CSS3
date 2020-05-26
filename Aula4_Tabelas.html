@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--Define que o codigo HTML será desenvolvido na lingua portuguesa do Brasil-->
+<html lang="pt-br">
+
+<head>
+    <!--Define que a págiana web aceitará acentuações da lingua portuguesa do Brasil-->
+    <meta charset="UTF-8">
+
+    <!--Meta tag descrevendo o que se trata neste site,
+    isso ajudam a rankiar o site pelo Google, são metodos utilizados por um SEO -->
+    <meta name="Description" content="Udemy - Curso de HTML5 & CSS3 Completo">
+
+    <!--Meta tags keywords ajudam a rankiar o site pelo Google, são metodos de um SEO -->
+    <meta keywords="como criar um site, como fazer um site, curso de HTML5, curso de CSS3">
+
+    <!--Nome da página que aparecerá na aba do navegador-->
+    <title>Aula 4: Tabelas</title>
+</head>
+    <body>
+
+        <!--Tabela sem borda-->
+        <p>Tabela sem borda</p>
+        <table>
+            <!--A tag <tr> cria uma linha e a tag </tr> fecha uma linha-->
+            <!--A tag <td> cria uma coluna e a tag </td> fecha uma coluna-->
+            <tr><td>1</td><td>2</td><td>3</td><td></tr>
+            <tr><td>4</td><td>5</td><td>6</td><td></tr>
+            <tr><td>7</td><td>8</td><td>9</td><td></tr>
+            <tr><td>10</td><td>11</td><td>12</td><td></tr>
+        </table>
+        <br>
+
+        <!--Tabela com borda-->
+        <p>Tabela com borda</p>
+        <table border="1">
+            <tr><td>1</td><td>2</td><td>3</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+            <tr><td>7</td><td>8</td><td>9</td></tr>
+            <tr><td>10</td><td>11</td><td>12</td></tr>
+        </table>
+        <br>
+
+        <!--Tabela com espaços sem número-->
+        <p>Tabela com espaços sem número </p>
+        <table border="1">
+            <tr><td>1</td><td>2</td><td></td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+            <tr><td>7</td><td>8</td><td>9</td></tr>
+            <tr><td>10</td><td></td><td></td></tr>
+        </table>
+        <br>
+
+        <!--Tabela ocupando duas colunas-->
+        <p>Tabela ocupando duas colunas </p>
+        <table border="1">
+            <tr><td>1</td><td colspan="2">2</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+            <tr><td>7</td><td>8</td><td>9</td></tr>
+            <tr><td>10</td><td>11</td><td>12</td></tr>
+        </table>
+        <br>
+
+        <!--Tabela ocupando todas as colunas-->
+        <p>Tabela ocupando todas as colunas </p>
+        <table border="1">
+            <tr><td>1</td><td colspan="2">2</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+            <tr><td colspan="3">8</td></tr>
+            <tr><td>10</td><td>11</td><td>12</td></tr>
+        </table>
+        <br>
+
+        <!--Tabela ocupando duas colunas-->
+        <p>Tabela ocupando duas colunas </p>
+        <table border="1">
+            <tr><td>1</td><td rowspan="2">2</td><td>3</td></tr>
+            <tr><td>4</td><td>6</td></tr>
+            <tr><td>7</td><td>8</td><td>9</td></tr>
+            <tr><td>10</td><td>11</td><td>12</td></tr>
+        </table>
+    </body>
+</html>
