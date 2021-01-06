@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sêmantica</title>
+</head>
+<body>
+    <h1>Você já ouviu falar de semântica?</h1>
+    <p>A maior mudança da HTML4 para a HTML5 é o acréscimo da semântica aos elementos.</p>
+    <p>Na HTML4, tínhamos tags como &lt;b&gt; que colocava um texto em <b> negrito </b>, &lt;u&gt; que
+        colocava o termo <u>sublinhado </u> e &lt;blink&gt; que fazia o texto <blink> piscar </blink>. 
+        Essas eram tags que representavam apenas uma forma.</p>
+    <p>
+        Você dizia que queria um texto sublinhado, mas
+        qual era o motivo? Qual era o sentido de sublinhar alguma coisa? Vamos ver um exemplo:
+    <br>
+        Juvenal era um sujeito de muita sorte. E já começou de pequeno, onde morou na <u>Rua Marquês
+        de Lira Filho</u>, um local de fácil acesso ao Centro da cidade.
+    </p>
+    <br>
+    <p>
+        Em HTML4, colocamos o par de tags <u> e </u> para delimitar o termo Rua Marquês
+        de Lira Filho. Isso seria uma maneira de determinar somente um formato visual para
+        chamar atenção para o endereço onde o cara nasceu. O sublinhado é apenas uma
+        forma, sem significado explícito. Sublinhamos só pra chamar atenção visualmente.
+    </p>
+    <br>
+    <p>
+        Já a HTML5 chegou com o conceito de valorizar a semântica, logo suas tags tentam
+        levar um significado embutido muito forte. Logo, a frase acima ficaria assim: 
+    <br>
+    <br>
+        Juvenal era um sujeito de muita sorte. E já começou de pequeno onde morou na 
+        <address> Rua Marquês de Lira Filho</address>, um local de fácil acesso ao Centro da cidade.
+    </p>
+
+    <h1>&lt;big&gt; morreu, mas o &lt;small&gt; ainda sobrevive</h1>
+    <p>
+        Tem certas coisas que simplesmente não são fáceis de entender. A
+        tag &lt;big&gt; (que deixava o texto maior) está depreciada pela HTML5,
+        mas a tag &lt;small&gt; (que deixa o texto menor) segue firme e forte
+        na vida da linguagem.
+    </p>
+    <p>
+        E não adianta ficar me olhando com essa cara de reprovação. Eu não tenho culpa
+        nenhuma por conta dessa decisão, sou apenas um mero professor que se foca em
+        mostrar os fatos, não em fazê-los ter um sentido claro. Tem certas coisas que a gente
+        não questiona, só aceita que dói menos.
+    </p>
+
+    <h1><strike>Texto deletado</strike></h1>
+    <p>
+        Antigamente existia a tag &lt;strike&gt;, que hoje também está depreciada pela última
+        versão da HTML. No lugar dela entrou a tag &lt;del&gt;, que significa que <strike> o texto está ali,
+        pode até ser lido, mas deve ser desconsiderado pelo leitor</strike>. Exatamente como eu
+        acabei de fazer.
+    </p>
+
+    <h1>Texto inserido</h1>
+    <p>
+        O <ins>texto inserido</ins> é o exato oposto do texto deletado que vimos anteriormente. Nesse
+        caso, se colocarmos um texto qualquer dentro de &lt;ins&gt; e &lt;/ins&gt;, estamos dizendo
+        que <ins>o texto está ali, deve ser lido e você deve prestar atenção nele</ins>. É o que fazíamos
+        anteriormente ao utilizar a tag &lt;u&gt; para sublinhar um texto.
+    </p>
+
+    <h1>Textos sobrescrito e subscrito</h1>
+    <p>
+        Quantas vezes você tentou escrever um x<sup>2</sup> ou um H<sub>2</sub>O em
+        um documento e ficou na dúvida de como fazer pra esses
+        números ficarem pequeninos ali em cima ou embaixo. Pois
+        a HTML tem as tags &lt;sub&gt; e &lt;sup&gt; justamente para essa
+        finalidade. Ao analisar os exemplos de código que apontei
+        no início desse documento, você vai perceber melhor a
+        diferença entre eles.
+    </p>
+</body>
+</html>
