@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+.topo {
+  width: 800px;
+  height: 100px;
+  margin: auto;
+}
+
+.logo {
+  width: 50%;
+  height: 100px;
+  float: left;
+  background-color: #EEEEEE;
+}
+
+.menu {
+  width: 50%;
+  height: 100px;
+  float: left;
+  background-color: #DDDDDD;
+}
+
+.corpo {
+  width: 800px;
+  height: 200px;
+  margin: auto;
+  background-color: #CCCCCC;
+}
+
+.rodape {
+  width: 800px;
+  height: 100px;
+  margin: auto;
+  background-color: #DDDDDD;
+}
