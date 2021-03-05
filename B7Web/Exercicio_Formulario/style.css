@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-body {
-  background-color: bisque;
-}
-
 header {
   display: flex;
   justify-content: center;
@@ -103,6 +99,56 @@ li img {
 
 .carrinho a div:hover {
   background-color: #5dffb2;
+}
+
+/* Formulario */
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.container_migalha {
+  display: flex;
+  width: 900px;
+}
+
+.migalha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+#inicio {
+
+}
+
+#seta {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 12px;
+}
+
+#cad {
+  color: #00ff87;
+}
+
+.container_form {
+  display: flex;
+  border: 5px solid #cc0149;
+}
+section form {
+  width: 900px;
+  height: 500px;
+}
+
+.form_email_senha {
+  
+}
+
+.form_email {
+  
 }
 
 
