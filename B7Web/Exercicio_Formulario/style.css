@@ -8,5 +8,124 @@ body {
 }
 
 header {
-  background-color: darkviolet;
+  display: flex;
+  justify-content: center;
+  background-color: #44004a;
+  height: 70px;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav ul, nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  margin-left: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #a090a2
+}
+
+nav a:hover {
+  background-color: #5b0064;
+  color: #FFFFFF;
+}
+
+/*Lupa*/
+li img {
+  width: 14px;
+}
+
+.carrinho {
+  display: flex;
+}
+
+.qtd_preco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 150px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: #5b0064;
+}
+
+.qtd {
+  font-size: 12px;
+  color: #a090a2;
+}
+
+.barra {
+  color: #a090a2;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.preco {
+  font-size: 12px;
+  color: #a090a2;
+}
+
+.carrinho_verde {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background-color:#00ff87;
+  margin-top: 20px;
+}
+
+.carrinho_verde img{
+  width: 18px;
+  height: 18px;
+}
+
+.carrinho a div:hover {
+  background-color: #5dffb2;
+}
+
+
+
+/*
+Cor de header   #44004a
+
+Cor do retangulo carrinho e preço #5b0064
+
+Texto inicio #a0a1a0
+
+texto cadastrar pequeno #5dffb2
+
+Texto menu de cor #a090a2
+
+Verde do carrinho #00ff87
+
+Borda do formulario #cc0149
+
+Botão cadastrar #00ff87
+
+Texto Botão Cadastrar #15a46c
+
+
+
+*/
