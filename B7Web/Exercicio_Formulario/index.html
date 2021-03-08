@@ -40,17 +40,18 @@
   </header><!-- Fim do Menu -->
 
   <!-- Inicio do formulário -->
-  <section>
-    <div class="container_geral">
-      <div class="container_bread">
-        <div class="container_migalha">
-          <div class="migalha">
-            <span id="inicio"> Início </span>
-            <span id="seta"> <img src="imagens/seta-direita.svg" alt="Imagem seta para direita"> </span>
-            <span id="cad"> Cadastrar </span>
-          </div>
+  <section id="section_migalha">
+    <div class="container_migalha">
+      <div class="conteudo_migalha">
+        <div class="migalha">
+          <span id="inicio"> Início </span>
+          <span id="seta"> <img src="imagens/seta-direita.svg" alt="Imagem seta para direita"> </span>
+          <span id="cad"> Cadastrar </span>
         </div>
       </div>
+    </div>
+  </section>
+  <section id="section_form">
     <div class="formulario">
       <form action="">
         <div class="container_form">
@@ -76,40 +77,110 @@
               </div>
             </div>
           </div>
+
+          <div class="container_dados">
+            <div class="conteudo_dados">
+            <div class="form_cadastro">
+              <div class="form_dados">
+                <div class="form_dados_cadastrais">
+                  <span>Dados Cadastrais</span>
+                </div>
+                <div class="radio">
+                  <div class="pessoa_fisica">
+                    <input type="radio" name="fisica_juridica" id="">
+                    <label for="">Pessoa física</label>
+                  </div>
+                  <div class="pessoa_juridica">
+                    <input type="radio" name="fisica_juridica" id="">
+                    <label for="">Pessoa Jurídica</label>
+                  </div>
+                </div>
+                <div class="nome">
+                  <label for="">Nome: <span>*</span></label>
+                  <input type="text">
+                </div>
+                <div class="sobrenome">
+                  <label for="">Sobrenome: <span>*</span></label>
+                  <input type="text">
+                </div>
+                <div class="sexo">
+                  <label for="">Sexo: <span>*</span></label>
+                  <select name="sexo" id="sexo">
+                    <option value="Masculino">Selecione</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                  </select>
+                </div>
+                <div class="cpf">
+                  <label for="">CPF: <span>*</span></label>
+                  <input type="text">
+                </div>
+                <div class="telefone">
+                  <label for="">Telefone: <span>*</span></label>
+                  <input type="tel" name="telefone" id="telefone">
+                </div>
+                <div class="celular">
+                  <label for="">Celeular: <span>*</span></label>
+                  <input type="tel" name="celular" id="celular">
+                </div>
+                <div class="nascimento">
+                  <label for="">Nascimento: <span>*</span></label>
+                  <input type="date" name="data_nascimento" id="data_nascimento">
+                </div>
+                <div class="receber_email">
+                  <input type="checkbox" name="receber_email" id="receber_email">
+                  <label for="">Receber ofertas e novidades por e-mail</label>
+                </div>
+              </div>
+              <div class="form_cadastro">
+                <div class="form_endereco">
+                  <div class="form_dados_endereco">
+                    <span>Endereço de entrega</span>
+                  </div>
+                  <div class="cep">
+                    <label for="">CEP: </label>
+                    <input type="text">
+                  </div>
+                  <div class="rua">
+                    <label for="">Rua: </label>
+                    <input type="text">
+                  </div>
+                  <div class="numero">
+                    <label for="">Numero: </label>
+                    <input type="number" name="numero" id="numero">
+                  </div>
+                  <div class="sem_numero">
+                    <input type="checkbox" name="sem_numero" id="sem_numero">
+                    <label for="">Sem Número</label>
+                  </div>
+                  <div class="complemento">
+                    <label for="">Complemento: </label>
+                    <input type="text">
+                  </div>
+                  <div class="referencia">
+                    <label for="">Referência: </label>
+                    <input type="text">
+                  </div>
+                  <div class="bairro">
+                    <label for="">Bairro: </label>
+                    <input type="text">
+                  </div>
+                  <div class="cidade">
+                    <label for="">Cidade: </label>
+                    <input type="text">
+                  </div>
+                  <div class="estado">
+                    <label for="">Estado: </label>
+                    <input type="text">
+                  </div>
+                </div>
+            </div>
+          </div> 
         </div>
-      </form>
-      <form action="">
-        <div class="container_dados">
-          <div class="form_cadastro">
-            <div class="form_dados">
-              <div class="form_dados_cadastrais">
-                <span>Dados Cadastrais</span>
-              </div>
-              <div class="radio">
-                <div class="pessoa_fisica">
-                  <input type="radio" name="pessoa_fisica" id="">
-                  <label for="">Pessoa física</label>
-                </div>
-                <div class="pessoa_juridica">
-                  <input type="radio" name="pessoa_juridica" id="">
-                  <label for="">Pessoa Jurídica</label>
-                </div>
-              </div>
-            </div>
-            <div class="form_email_senha">
-              <div class="form_senha">
-                <span>Endereço de entrega</span> 
-              </div>
-              <div class="rep_senha">
-                <label for="">Repetir senha: <span>*</span></label>
-                <input type="password" name="senha" id=""> 
-              </div>
-            </div>
-          </div>
+        <input type="button" value="Cadastrar">
         </div>
       </form>
     </div>
-  </div>
-  </section>
+    </section>
 </body>
 </html>

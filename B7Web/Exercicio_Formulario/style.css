@@ -102,15 +102,10 @@ li img {
 }
 
 /* Formulario */
-section {
+
+#section_migalha{
   display: flex;
   justify-content: center;
-  margin-top: 40px;
-}
-
-.formulario {
-  margin-top: 10px;
-  border: 5px solid #cc0149;
 }
 
 .container_migalha {
@@ -118,11 +113,18 @@ section {
   width: 900px;
 }
 
+.conteudo_migalha {
+  display: flex;
+}
+
 .migalha {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#inicio {
+
 }
 
 #seta {
@@ -135,109 +137,146 @@ section {
   color: #00ff87;
 }
 
-section form{
+#section_form {
   display: flex;
   justify-content: center;
-  align-items: center; 
+}
+
+.formulario {
+  border: 5px solid #cc0149;
+}
+
+form {
+  display: flex;
   width: 900px;
-  margin-top: 10px;
 }
 
 .container_form {
   display: flex;
-}
-
-.container_form label span {
-  color: red;
+  flex-direction: column;
 }
 
 .cad_email_senha {
-  display: flex; 
+  display: flex;
+  justify-content: space-between;
 }
 
 .form_email_senha {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.form_email_senha span {
+  color: red;
 }
 
 .form_email {
-  flex: 1;
-  margin-left: 49px;
   margin-bottom: 10px;
+  margin-left: 48px;
 }
+
 .form_email input {
   border-radius: 3px;
-  width: 250px;
+  width: 240px;
   height: 20px;
 }
 
 .rep_email {
-  flex: 1;
 }
 
 .rep_email input {
   border-radius: 3px;
-  width: 250px;
+  width: 240px;
   height: 20px;
 }
 
 .form_senha {
-  flex: 1;
   margin-bottom: 10px;
 }
 
 .form_senha input {
   border-radius: 3px;
-  width: 250px;
+  width: 240px;
   height: 20px;
 }
 
 .rep_senha {
-  flex: 1;
-  margin-left: 13px;
+  margin-left: 12px;
 }
+
 
 .rep_senha input{
   border-radius: 3px;
-  width: 250px;
+  width: 240px;
   height: 20px;
 }
 
-
-/* Dados Cadastrais */
 .container_dados {
+  background-color: #bbff00;
+}
 
+.conteudo_dados {
+  display: flex;
+  background-color: #44004a;
 }
 
 .form_cadastro {
-
+  display: flex;
+  background-color: #a090a2;
 }
 
 .form_dados {
-
+  background-color: bisque;
 }
 
 .form_dados_cadastrais {
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: #00ff87;
 }
 
 .radio {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 160px;
+  margin-bottom: 10px;
+  background-color: chartreuse;
 }
 
 .pessoa_fisica {
-  
 }
 
-.dados_cadastrais {
+.pessoa_fisica input {
+  margin-left: 30px;
 }
 
 .pessoa_juridica {
+
+}
+
+.pessoa_juridica input {
+  margin-left: 30px;
+}
+
+.form_cadastro {
+  background-color: brown;
+}
+
+.form_endereco {
+  background-color: blue;
+}
+
+.form_dados_endereco {
+  background-color: cadetblue;
 }
 
 
 
 
-/*
+/* 
+
 Cor de header   #44004a
 
 Cor do retangulo carrinho e preço #5b0064
