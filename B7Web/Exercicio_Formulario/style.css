@@ -123,8 +123,12 @@ li img {
   margin-bottom: 10px;
 }
 
-#inicio {
+.migalha a{
+  text-decoration: none;
+}
 
+.migalha a:hover{
+  text-decoration: underline;
 }
 
 #seta {
@@ -151,6 +155,10 @@ form {
   width: 900px;
 }
 
+form span {
+  color: red;
+}
+
 .container_form {
   display: flex;
   flex-direction: column;
@@ -168,10 +176,6 @@ form {
   margin-bottom: 10px;
 }
 
-.form_email_senha span {
-  color: red;
-}
-
 .form_email {
   margin-bottom: 10px;
   margin-left: 48px;
@@ -181,9 +185,6 @@ form {
   border-radius: 3px;
   width: 240px;
   height: 20px;
-}
-
-.rep_email {
 }
 
 .rep_email input {
@@ -213,88 +214,249 @@ form {
   height: 20px;
 }
 
-.container_dados {
-  background-color: #bbff00;
-}
-
 .conteudo_dados {
   display: flex;
-  background-color: #44004a;
 }
 
 .form_cadastro {
   display: flex;
-  background-color: #a090a2;
-}
-
-.form_dados {
-  background-color: bisque;
 }
 
 .form_dados_cadastrais {
   margin-left: 40px;
   margin-top: 10px;
-  background-color: #00ff87;
+}
+
+.form_dados_cadastrais h3{
+  font-weight: normal;
 }
 
 .radio {
   display: flex;
   margin-top: 30px;
-  margin-left: 160px;
+  margin-left: 130px;
   margin-bottom: 10px;
-  background-color: chartreuse;
-}
-
-.pessoa_fisica {
 }
 
 .pessoa_fisica input {
   margin-left: 30px;
 }
 
-.pessoa_juridica {
-
-}
-
 .pessoa_juridica input {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
-.form_cadastro {
-  background-color: brown;
+.nome {
+  margin-left: 90px;
+  margin-bottom: 10px;
 }
 
-.form_endereco {
-  background-color: blue;
+.nome input{
+  border-radius: 3px;
+  width: 240px;
+  height: 20px;
+}
+
+.sobrenome {
+  margin-left: 56px;
+  margin-bottom: 10px;
+}
+
+.sobrenome input{
+  border-radius: 3px;
+  width: 240px;
+  height: 20px;
+}
+
+.sexo {
+  margin-left: 97px;
+  margin-bottom: 10px;
+}
+
+.sexo select{
+  border-radius: 3px;
+  width: 140px;
+  height: 25px;
+}
+
+.cpf {
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.cpf input{
+  border-radius: 3px;
+  width: 200px;
+  height: 20px;
+}
+
+.telefone {
+  margin-left: 72px;
+  margin-bottom: 10px;
+}
+
+.telefone input{
+  border-radius: 3px;
+  width: 200px;
+  height: 20px;
+}
+
+.celular {
+  margin-left: 72px;
+  margin-bottom: 10px;
+}
+
+.celular input{
+  border-radius: 3px;
+  width: 200px;
+  height: 20px;
+}
+
+.nascimento {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.nascimento input{
+  border-radius: 3px;
+  width: 200px;
+  height: 20px;
+}
+
+.receber_email {
+  margin-left: 147px;
+}
+
+.receber_email label {
+  padding-left: 10px;
+  font-size: 12px;
 }
 
 .form_dados_endereco {
-  background-color: cadetblue;
+  margin-left: 80px;
+  margin-top: 10px;
 }
 
+.form_dados_endereco h3 {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
 
+.cep {
+  margin-bottom: 10px;
+  margin-left: 164px;
+}
 
+.cep input{
+  border-radius: 3px;
+  width: 150px;
+  height: 20px;
+}
 
-/* 
+.rua {
+  margin-bottom: 10px;
+  margin-left: 167px;
+}
 
-Cor de header   #44004a
+.rua input{
+  border-radius: 3px;
+  width: 240px;
+  height: 20px;
+}
 
-Cor do retangulo carrinho e preço #5b0064
+.numero {
+  margin-bottom: 10px;
+  margin-left: 140px;
+}
 
-Texto inicio #a0a1a0
+.numero input{
+  border-radius: 3px;
+  width: 100px;
+  height: 20px;
+}
 
-texto cadastrar pequeno #5dffb2
+.sem_numero {
+  margin-bottom: 10px;
+  margin-left: 202px;
+}
 
-Texto menu de cor #a090a2
+.complemento {
+  margin-bottom: 10px;
+  margin-left: 102px;
+}
 
-Verde do carrinho #00ff87
+.complemento input{
+  border-radius: 3px;
+  width: 200px;
+  height: 20px;
+}
 
-Borda do formulario #cc0149
+.referencia {
+  margin-bottom: 10px;
+  margin-left: 123px;
+}
 
-Botão cadastrar #00ff87
+.referencia input{
+  border-radius: 3px;
+  width: 240px;
+  height: 20px;
+}
 
-Texto Botão Cadastrar #15a46c
+.bairro {
+  margin-bottom: 10px;
+  margin-left: 151px;
+}
 
+.bairro input{
+  border-radius: 3px;
+  width: 240px;
+  height: 20px;
+}
 
+.cidade {
+  margin-bottom: 10px;
+  margin-left: 147px;
+}
 
-*/
+.cidade input{
+  border-radius: 3px;
+  width: 240px;
+  height: 20px;
+}
+
+.estado {
+  margin-bottom: 10px;
+  margin-left: 149px;
+}
+
+.estado input{
+  border-radius: 3px;
+  width: 80px;
+  height: 20px;
+}
+
+.botao a {
+  text-decoration: none;
+}
+
+.boão_cadastar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 146px;
+  margin-bottom: 10px;
+  background-color: #00ff87;
+  border-radius: 3px; 
+}
+
+.boão_cadastar img {
+  width: 10px;
+  padding-left: 10px;
+}
+
+.boão_cadastar:hover {
+  background-color: #5dffb2;
+}
