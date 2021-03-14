@@ -77,14 +77,17 @@ nav a {
 }
 
 .menu img {
-  width: 12px;
-  height: 12px;
   margin-top: 23px;
   margin-left: 5px;
 }
 
+.seta_baixo img {
+  width: 10px;
+  height: 10px;
+}
+
 .menu_secundario {
-  margin-left: 85px;
+  margin-left: 65px;
 }
 
 .menu_secundario img {
@@ -92,11 +95,63 @@ nav a {
 }
 
 .img_maior img {
+  width: 10px;
+  height: 10px;
+}
+
+.usuario {
+  margin-left: 20px;
+}
+
+.usuario img {
   width: 16px;
   height: 16px;
 }
 
-.usuario img {
-  width: 24px;
-  height: 24px;
+/* Section Surface Home */
+#section_geral {
+  display: block;
+}
+
+.container_section {
+  display: block;
+}
+
+.conteudo_section {
+  display: block;
+}
+
+.surface_home {
+  width: 500px;
+}
+
+.explorar {
+
+}
+
+.explorar a{
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+  left: 0;
+  text-overflow: clip;
+  overflow: hidden;
+  transition: all 200ms ease-in-out;
+}
+
+.explorar span {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: normal;
+  line-height: 1.3;
+  letter-spacing: 0;
+  cursor: pointer;
+  box-sizing: inherit;
+  color: #0067b8;
+}
+
+.explorar img {
+  width: 10px;
+  height: 10px;
 }
