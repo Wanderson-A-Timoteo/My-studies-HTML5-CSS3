@@ -13,12 +13,12 @@ header {
   height: 54px;
 }
 
-.container {
+.container_header {
   display: flex;
   width: 1150px;
 }
 
-.container_header {
+.container_menu {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,12 +46,44 @@ header {
   margin-bottom: 5px;
 }
 
+.surface a {
+  text-decoration: none;
+}
+
+.surface a:hover {
+  text-decoration: underline;
+}
+
 .surface span {
   font-size: 16px;
   font-weight: 500;
+  color: #3b3b3b;
 }
 
-.menu {
+.menu_primario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_primario  button {
+  height: 54px;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.menu_primario  nav {
+
+}
+
+.menu_primario  ul {
+}
+
+.texto_botao {
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 nav ul, nav li, nav img {
@@ -76,7 +108,7 @@ nav a {
   font-size: 13px;
 }
 
-.menu img {
+.menu_primario img {
   margin-top: 23px;
   margin-left: 5px;
 }
@@ -90,8 +122,15 @@ nav a {
   margin-left: 65px;
 }
 
+.menu_secundario button {
+  height: 54px;
+  background-color: #FFFFFF;
+  border: none;
+}
+
 .menu_secundario img {
-  margin-left: 10px;
+  margin-top: 23px;
+  margin-left: 5px;
 }
 
 .img_maior img {
@@ -99,14 +138,14 @@ nav a {
   height: 10px;
 }
 
-.usuario {
-  margin-left: 20px;
+.usuario img {
+  width: 20px;
+  height: 20px;
 }
 
-.usuario img {
-  width: 16px;
-  height: 16px;
-}
+
+
+
 
 /* Section Surface Home */
 #section_geral {
