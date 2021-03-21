@@ -87,13 +87,13 @@ header {
 }
 
 nav ul, nav li, nav img {
-  list-style: none;
+  list-style: none; /* Retira o pontinha da lista */
   margin: 0;
   padding: 0;
 }
 
 nav ul {
-  display: flex;
+  display: flex; /* Aplicado para as lista em menu ficar um ao lado do outro */
 }
 
 nav li {
@@ -149,20 +149,23 @@ nav a {
 
 /* Section Surface Home */
 #section_geral {
-  display: block;
+  display: flex;
+  justify-content: center;
+  background-image: url('imagens/Surface_Home_Hero_Fall_20_Non_HE_V1.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+}
+
+.column {
 }
 
 .container_section {
-  display: block;
 }
-
-.conteudo_section {
-  display: block;
-}
-
+/* 
 .surface_home {
   width: 500px;
-}
+} */
 
 .explorar {
 
