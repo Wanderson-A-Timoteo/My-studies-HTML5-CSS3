@@ -221,7 +221,7 @@ nav a {
 }
 
 .itens_menu_central {
-  width: 250px;
+  width: 200px;
   margin-left: 50px;
 }
 
@@ -251,4 +251,93 @@ nav a {
 }
 .itens_menu_central #icone-empresas {
   margin-left: 40px;
+}
+
+
+/*Bloco - Seção Oferta Surface */
+
+#section_oferta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_oferta {
+  flex-direction: column;
+  height: 300px;
+}
+
+.banner_oferta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_oferta img {
+  width: 1100px;
+}
+
+.texto_banner_oferta {
+  flex-direction: column;
+}
+
+.titulo_oferta h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 30px;
+}
+
+.desc_oferta {
+  width: 900px;
+  margin-left: 50px;
+}
+
+.desc_oferta p {
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 100px;
+  text-align: center;
+}
+
+/* Bloco - Modelos Surface */
+
+#modelos_surface {
+
+}
+
+.container_modelos_surface {
+  width: 1000px;
+}
+
+.modelos_surface {
+  display: flex;
+  margin: 10px;
+  width: 1205px;
+
+}
+
+#surface_pro_7 {
+  flex: 1;
+  width: 950px;
+  height: 1072px;
+  background-image: url('imagens/Surface-Pro-7.png');
+}
+
+#surface_pro_7 span img {
+  width: 12px;
+}
+
+#surface_loptop_go {
+  flex: 1;
+  width: 950px;
+  height: 1072px;
+  margin-left: 5px;
+  background-image: url('imagens/Surface-loptop-go.jpg');
+}
+
+#surface_loptop_go span img {
+  width: 12px;
 }
