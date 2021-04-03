@@ -153,7 +153,7 @@ nav a {
   background-image: url('imagens/Surface_Home_Hero_Fall_20_Non_HE_V1.jpg');
   background-position: center;
   background-size: cover;
-  height: 450px;
+  height: 470px;
 }
 
 .container_section {
@@ -166,23 +166,23 @@ nav a {
 
 .surface_home {
   width: 360px;
-  margin-left: 100px;
-  margin-top: 150px;
+  margin-left: 120px;
+  margin-top: 100px;
 }
 
 .surface_home h1 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 100;
 }
 
 .surface_home p {
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 100;
   margin-top: 5px;
 }
 
 .explorar {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .explorar a{
@@ -274,7 +274,7 @@ nav a {
 }
 
 .banner_oferta img {
-  width: 1100px;
+  width: 1150px;
 }
 
 .texto_banner_oferta {
@@ -305,39 +305,85 @@ nav a {
 /* Bloco - Modelos Surface */
 
 #modelos_surface {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container_modelos_surface {
-  width: 1000px;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px;
 }
 
 .modelos_surface {
   display: flex;
-  margin: 10px;
-  width: 1205px;
-
+  width: 100%;
+  margin-top: 30px;
 }
 
 #surface_pro_7 {
-  flex: 1;
-  width: 950px;
-  height: 1072px;
-  background-image: url('imagens/Surface-Pro-7.png');
+  width: 635px;
+  height: 717px;
+  background: url('imagens/Surface-Pro-7-635x717.png');
 }
 
-#surface_pro_7 span img {
+.titulo_surface_pro_7,
+.titulo_surface_laptop_go {
+  margin-top: 500px;
+  margin-left: 45px;
+}
+
+.titulo_surface_pro_7 h1, .titulo_surface_laptop_go h1{
+  color: black;
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.titulo_surface_pro_7 p, .titulo_surface_laptop_go p{
+  color: black;
+  font-size: 21px;
+  font-weight: 100;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.titulo_surface_pro_7 a, .titulo_surface_laptop_go a{
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0067b8;
+  text-decoration: none;
+}
+
+.titulo_surface_pro_7 a:hover,
+.titulo_surface_laptop_go a:hover{
+  text-decoration: underline;
+}
+
+.titulo_surface_pro_7 a img{
   width: 12px;
 }
 
 #surface_loptop_go {
-  flex: 1;
-  width: 950px;
-  height: 1072px;
+  width: 635px;
+  height: 717px;
+  background: url('imagens/Surface-loptop-go-635x717.jpg');
   margin-left: 5px;
-  background-image: url('imagens/Surface-loptop-go.jpg');
 }
 
 #surface_loptop_go span img {
   width: 12px;
+}
+
+.strong {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  background-color: yellow;
 }
