@@ -72,13 +72,6 @@ header {
   border: none;
 }
 
-.menu_primario  nav {
-
-}
-
-.menu_primario  ul {
-}
-
 .texto_botao {
   font-size: 12px;
   font-weight: normal;
@@ -142,10 +135,6 @@ nav a {
   width: 20px;
   height: 20px;
 }
-
-
-
-
 
 /* Section Surface Home */
 #section_geral {
@@ -625,7 +614,54 @@ nav a {
 #surface_earbuds {
   width: 635px;
   height: 350px;
-  /* background: url('imagens/Surface_EarBuds_290x335.png') no-repeat; */
   margin-left: 5px;
   background-color: #E5E5E5;
 }
+  /* ---------------------------------------------------------------------------------------------------------------------------- */
+
+/* Section Menu Central */
+
+#menu_inferior{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.container_menu_inferior {
+  display: flex;
+}
+
+.itens_menu_inferior {
+  width: 200px;
+  margin-left: 50px;
+}
+
+.itens_menu_inferior a {
+  align-items: center;
+}
+
+.itens_menu_inferior span {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0067b8;
+}
+
+.itens_menu_inferior img {
+  width: 35px;
+} 
+
+.itens_menu_inferior #icone-lampada {
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+
+.itens_menu_inferior #icone-globo {
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+.itens_menu_inferior #icone-triangulo {
+  margin-left: 40px;
+}
+
