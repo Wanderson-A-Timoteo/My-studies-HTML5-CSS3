@@ -293,6 +293,7 @@ nav a {
 .desc_oferta {
   width: 900px;
   margin-left: 50px;
+  margin-bottom: 30px;
 }
 
 .desc_oferta p {
@@ -301,9 +302,9 @@ nav a {
   margin-left: 100px;
   text-align: center;
 }
+/* ---------------------------------------------------------------------------------------------------------------------  */
 
-/* Bloco - Modelos Surface */
-
+/*  Bloco - Seção Modelos Surface 1  */
 #modelos_surface {
   display: flex;
   justify-content: center;
@@ -313,13 +314,13 @@ nav a {
 .container_modelos_surface {
   flex-direction: column;
   width: 100%;
-  margin: 10px;
+  margin: 2px;
+  margin-left: 10px;
 }
 
 .modelos_surface {
   display: flex;
   width: 100%;
-  margin-top: 30px;
 }
 
 #surface_pro_7 {
@@ -350,7 +351,7 @@ nav a {
 }
 
 .titulo_surface_pro_7 a, .titulo_surface_laptop_go a{
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   color: #0067b8;
@@ -363,7 +364,7 @@ nav a {
 }
 
 .titulo_surface_pro_7 a img{
-  width: 12px;
+  width: 10px;
 }
 
 #surface_loptop_go {
@@ -374,7 +375,7 @@ nav a {
 }
 
 #surface_loptop_go span img {
-  width: 12px;
+  width: 10px;
 }
 
 .strong {
@@ -386,4 +387,245 @@ nav a {
   text-transform: uppercase;
   margin-bottom: 15px;
   background-color: yellow;
+}
+/* ---------------------------------------------------------------------------------------------------------------------  */
+
+/*  Bloco - Seção Modelos Surface 2  */
+
+#surface_laptop_3 {
+  width: 635px;
+  height: 717px;
+  background: url('imagens/Surface_Laptop_3.png');
+}
+
+.titulo_surface_laptop_3 {
+  margin-top: 500px;
+  margin-left: 45px;
+}
+
+.titulo_surface_go_2 {
+  margin-top: 530px;
+  margin-left: 45px;
+}
+
+.titulo_surface_laptop_3 h1 {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.titulo_surface_go_2 h1{
+  color: black;
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.titulo_surface_laptop_3 p {
+  color: #FFFFFF;
+  font-size: 21px;
+  font-weight: 100;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.titulo_surface_go_2 p{
+  color: black;
+  font-size: 21px;
+  font-weight: 100;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.titulo_surface_laptop_3 a {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.titulo_surface_go_2 a{
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0067b8;
+  text-decoration: none;
+}
+
+.titulo_surface_laptop_3 a:hover,
+.titulo_surface_go_2 a:hover{
+  text-decoration: underline;
+}
+
+.titulo_surface_laptop_3 a img{
+  width: 10px;
+}
+
+#surface_go_2 {
+  width: 635px;
+  height: 717px;
+  background: url('imagens/Surface_Go_2.jpg');
+  margin-left: 5px;
+}
+
+#surface_go_2 span img {
+  width: 10px;
+}
+/* ---------------------------------------------------------------------------------------------------------------------  */
+
+/*  Bloco - Seção Modelos Surface 3  */
+
+#surface_book_3 {
+  width: 635px;
+  height: 717px;
+  background: url('imagens/Surface_Book_3.jpg');
+}
+
+.titulo_surface_book_3 {
+  margin-top: 520px;
+  margin-left: 45px;
+}
+
+.titulo_surface_pro_x {
+  margin-top: 500px;
+  margin-left: 45px;
+}
+
+.titulo_surface_book_3 h1, .titulo_surface_pro_x h1{
+  color: black;
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.titulo_surface_book_3 p, .titulo_surface_pro_x p{
+  color: black;
+  font-size: 21px;
+  font-weight: 100;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.titulo_surface_book_3 a, .titulo_surface_pro_x a{
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0067b8;
+  text-decoration: none;
+}
+
+.titulo_surface_book_3 a:hover,
+.titulo_surface_pro_x a:hover{
+  text-decoration: underline;
+}
+
+.titulo_surface_book_3 a img{
+  width: 10px;
+}
+
+#surface_pro_x {
+  width: 635px;
+  height: 717px;
+  background: url('imagens/Surface_Pro_X.jpg');
+  margin-left: 5px;
+}
+
+#surface_pro_x span img {
+  width: 10px;
+}
+/* ---------------------------------------------------------------------------------------------------------------------  */
+
+/*  Bloco - Seção Modelos Surface 4  */
+#surface_headphone_2 {
+  width: 635px;
+  height: 350px;
+  /* background: url('imagens/Surface_HeadPhones_2_290x335.png') no-repeat; */
+  background-color: #E5E5E5;
+}
+
+.banner_headphone, 
+.banner_surface_earbuds {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.titulo_surface_headphone_2 h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 100;
+  margin-top: 40px;
+  margin-left: 50px;
+} 
+
+.titulo_surface_earbuds h1{
+  color: black;
+  font-size: 40px;
+  font-weight: 100;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+.titulo_surface_headphone_2 p {
+  color: black;
+  font-size: 21px;
+  font-weight: 100;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;  
+}
+
+.titulo_surface_earbuds p{
+  color: black;
+  font-size: 21px;
+  font-weight: 100;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.link_headphone {
+  margin-left: 50px;
+}
+
+.link_headphone a {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0067b8;
+  text-decoration: none;
+}
+
+.link_earbuds {
+  margin-left: 50px;
+}
+
+.link_earbuds a{
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0067b8;
+  text-decoration: none;
+}
+
+.link_earbuds img {
+  width: 10px;
+}
+
+.titulo_surface_headphone_2 a:hover,
+.titulo_surface_earbuds a:hover{
+  text-decoration: underline;
+}
+
+.titulo_surface_headphone_2 a img{
+  width: 10px;
+}
+
+#surface_earbuds {
+  width: 635px;
+  height: 350px;
+  /* background: url('imagens/Surface_EarBuds_290x335.png') no-repeat; */
+  margin-left: 5px;
+  background-color: #E5E5E5;
 }
