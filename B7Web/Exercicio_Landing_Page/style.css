@@ -530,7 +530,6 @@ nav a {
 #surface_headphone_2 {
   width: 635px;
   height: 350px;
-  /* background: url('imagens/Surface_HeadPhones_2_290x335.png') no-repeat; */
   background-color: #E5E5E5;
 }
 
@@ -619,49 +618,79 @@ nav a {
 }
   /* ---------------------------------------------------------------------------------------------------------------------------- */
 
-/* Section Menu Central */
 
+/* Bloco - Seção Menu Inferior */
 #menu_inferior{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  height: 250px;
 }
 
 .container_menu_inferior {
   display: flex;
 }
 
+.container_menu_inferior nav  {
+  display: flex;
+}
+
+.container_menu_inferior ul {
+  display: flex;
+}
+
+.container_menu_inferior li {
+  display: flex;
+}
+
 .itens_menu_inferior {
-  width: 200px;
-  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 10px;
 }
 
 .itens_menu_inferior a {
-  align-items: center;
 }
 
 .itens_menu_inferior span {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   color: #0067b8;
 }
 
 .itens_menu_inferior img {
-  width: 35px;
+  width: 45px;
+  margin-bottom: 10px;
 } 
 
 .itens_menu_inferior #icone-lampada {
-  margin-left: 20px;
-  padding-bottom: 5px;
-}
-
-.itens_menu_inferior #icone-globo {
-  margin-left: 20px;
-  padding-bottom: 5px;
-}
-.itens_menu_inferior #icone-triangulo {
   margin-left: 40px;
 }
 
+.itens_menu_inferior #icone-globo {
+  margin-left: 50px;
+}
+.itens_menu_inferior #icone-triangulo {
+  margin-left: 80px;
+}
+
+.linha_cima_itens_menu_inferior {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 1100px;
+  height: 2px;
+  background-color:  #E5E5E5;
+}
+
+.linha_baixo_itens_menu_inferior {
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  width: 1100px;
+  height: 2px;
+  background-color: #E5E5E5;
+}
