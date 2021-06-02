@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 48px;
+}
+
+.container_header{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.container_header a {
+  font-size: 13px;
+  color: rgba(0,0,0,0.87);
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.links_header {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.links_header a:hover {
+  text-decoration: underline;
+}
+
+.apps_login_header {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.link_header_gmail {
+  margin: 10px;
+}
+
+.link_header_imagens {
+  margin: 10px;
+}
+
+.apps_login_header_pesquisaApps svg{
+  width: 24px;
+}
+
+.apps_login_header_pesquisaApps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.apps_login_header_pesquisaApps:hover {
+  background-color: rgba(0, 0, 0, 0.11);
+}
+
+.apps_login_header_fazer_login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 36px;
+  margin: 10px;
+  background: #1a73e8;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: .25px;
+  line-height: 16px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.apps_login_header_fazer_login a{
+  color: #fff;
+}
+
+.apps_login_header_fazer_login:hover {
+  background: #1a73e8c7;
+}
+
