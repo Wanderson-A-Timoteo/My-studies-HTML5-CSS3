@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-
+/*     CABEÇALHO          */
 header{
   display: flex;
   flex-direction: row-reverse;
@@ -74,7 +74,7 @@ header{
   background: #1a73e8;
   border: 1px solid transparent;
   cursor: pointer;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   letter-spacing: .25px;
   line-height: 16px;
@@ -90,3 +90,91 @@ header{
   background: #1a73e8c7;
 }
 
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*     SEÇÃO          */
+
+section {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_section {
+  display: block;
+}
+
+.section_img_google {
+  display: flex;
+  height: 200px;
+  justify-content:center; /* Alinha a img google ao centro */
+  align-items: flex-end; /* Alinha a img google abaixo */
+}
+
+.section_img_google img{
+  width: 250px;
+}
+
+.section_lupa_teclado_microfone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 530px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  margin-top: 20px;
+  border-radius: 100px;
+}
+
+.container_input:hover {
+  width: 532px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.151);
+}
+
+.section_lupa {
+  display: flex;
+  margin-left: 10px;
+}
+
+.section_lupa svg{
+  width: 20px;
+  height: 26px;
+}
+
+.section_input_text input{
+  width: 400px;
+  height: 35x;
+  border: none;
+}
+
+.section_teclado_microfone {
+  display: flex;
+  margin-right: 10px;
+}
+
+.section_teclado {
+  display: flex;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.section_teclado img {
+  width: 24px;
+  height: 24px;
+}
+
+.section_microfone {
+  display: flex;
+  cursor: pointer;
+}
+
+.section_microfone svg{
+  width: 24px;
+  height: 24px;
+}
