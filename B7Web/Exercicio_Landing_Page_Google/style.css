@@ -178,3 +178,52 @@ section {
   width: 24px;
   height: 24px;
 }
+
+.section_container_pesquisa_estou_sorte {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.section_pesquisa_estou_sorte_central {
+  display: flex;
+}
+
+.section_pesquisa {
+  margin: 10px;
+}
+
+.section_pesquisa button{
+  width: 140px;
+  height: 36px;
+  color: #000;
+  font-size: 13px;
+  font-weight: 100;
+  background-color: rgba(0, 0, 0, 0.034);
+  border: none;
+}
+
+.section_pesquisa button:hover{
+  border: 1px solid rgba(0, 0, 0, 0.144);
+  border-radius: 4px;
+}
+
+
+.section_estou_sorte {
+  margin: 10px;
+}
+
+.section_estou_sorte button{
+  width: 140px;
+  height: 36px;
+  color: #000;
+  font-size: 13px;
+  font-weight: 100;
+  background-color: rgba(0, 0, 0, 0.034);
+  border: none;
+}
+
+.section_estou_sorte button:hover{
+  border: 1px solid rgba(0, 0, 0, 0.144);
+  border-radius: 4px;
+}
