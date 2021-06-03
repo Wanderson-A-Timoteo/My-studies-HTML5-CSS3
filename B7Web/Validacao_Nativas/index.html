@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Tags Fieldset e Legend </title>
+</head>
+<body>
+    <form action="blablabla.php">
+
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="">
+          Primeiro Nome: <br>
+          <!-- required é uma validação nativa dos navegadores, minlength determina o minimo de caracteres, 
+            maxlength determina o maximo de caracteres -->
+          <input type="text" name="name" required minlength="2" maxlength="4"> 
+        </label>
+        <br>
+        <label for="">
+          Sobrenome: <br>
+          <input type="text" name="lastname" required>
+        </label>
+        <br>
+        <label for="">
+          Idade: <br>
+          <!-- step determina o número que será somado, por exemplo 2, será mostrado de 2 em 2 
+          min determina o numero minimo como exemplo idade minima de 18 anos e max determina o número maximo. 
+        Min e Max funcionam tanto para número quanto para data-->
+          <input type="number" name="age" required step="2" min="18" max="120">
+        </label>
+        <br>
+        <label for="">
+          Data de Nascimento: <br>
+          <!--  Min e Max funcionam tanto para número quanto para data-->
+          <input type="date" name="birthdate" required  min="2021-06-14">
+        </label>
+        <br>
+        <label for="">
+          E-mail: <br>
+          <!--  pattern determina o padrão de e-mail exigido para validar-->
+          <input type="email" name="email" required  pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="Endereço de e-mail">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label for="">
+        Nome da empresa: <br>
+          <input type="text" name="copanyname">
+        </label>
+        <br>
+        <label for="">
+          Cargo na empresa: <br>
+          <input type="text" name="conpanyjobtitle">
+        </label>
+      </fieldset>
+
+      <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
