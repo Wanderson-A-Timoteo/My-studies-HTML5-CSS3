@@ -151,6 +151,8 @@ section {
   width: 400px;
   height: 35x;
   border: none;
+  outline: 0;
+  font-size: 16px;
 }
 
 .section_teclado_microfone {
@@ -226,4 +228,115 @@ section {
 .section_estou_sorte button:hover{
   border: 1px solid rgba(0, 0, 0, 0.144);
   border-radius: 4px;
+}
+
+.section_branco {
+  height: 285px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+/* FOOTER */
+
+footer {
+  display: block;
+}
+
+.footer_container {
+  display: block;
+  height: 94px;
+  background-color: #dadce052;
+}
+
+.footer_brasil_links {
+  display: block;
+}
+
+.footer_brasil {
+  display: flex;
+  height: 46px;
+  border-bottom:1px solid #dadce0;
+}
+
+.span {
+  display: flex;
+  align-items: center;
+}
+
+.footer_brasil span {
+  display: flex;
+  margin-left: 20px;
+  font-size: 15px;
+  font-family: arial,sans-serif;
+  color: rgba(0,0,0,.54);
+}
+
+.footer_links {
+  display: flex;
+  justify-content: space-between;
+  height: 46px;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.footer_links_rodape_esquerdo {
+  display: flex;
+  align-items: center;
+}
+
+.footer_links_rodape_esquerdo a{
+  text-decoration: none;
+  margin: 10px;
+  color: #70757a;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+}
+
+.footer_links_rodape_esquerdo a:hover{
+  text-decoration: underline;
+}
+
+.footer_links_rodape_direito {
+  display: flex;
+  align-items: center;
+}
+
+.footer_links_rodape_direito a{
+  text-decoration: none;
+  margin: 10px;
+  color: #70757a;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+}
+
+.footer_links_rodape_direito a:hover{
+  text-decoration: underline;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+/* Balão de mensagens */
+
+[data-tooltip] {
+  position: relative;
+  font-weight: 400;
+}
+
+[data-tooltip]:after {
+  display: none;
+  position: absolute;
+  top: 30px;
+  padding: 3px;
+   /* border-radius: 3px;
+ left: calc(100% + 2px); */
+  content: attr(data-tooltip);
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0.877);
+  color: White;
+  font-size: 13px;
+}
+
+[data-tooltip]:hover:after {
+  display: block;
 }
