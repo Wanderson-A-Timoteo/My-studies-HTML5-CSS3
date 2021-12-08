@@ -12,8 +12,12 @@
 }
 
 #header .logo {
-  width: 130px;
-  height: auto;
+  margin-left: 30px;
+}
+
+#header .logo img {
+  width: 92px;
+  height: 33px;
 }
 
 .header-container {
@@ -21,24 +25,82 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .form-header {
-  background-color: bisque;
   display: flex;
   align-items: center;
 }
 
 .search {
   display: flex;
+  align-items: center;
+
+  width: 640px;
+  height: 44px;
+  margin-left: 30px;
+  background: #303134;
+  border-radius: 24px;
 }
 
-.search input {
-  width: 340px;
-  height: 40px;
+.search-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin-left: 20px;
+}
+
+.search-input-limpar {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.search-input input {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 39px;
+  color: #e8eaed;
+  border: none;
+  outline: none;
+  word-wrap: break-word;
+  flex: 100%;
+  background-color: transparent;
+}
+
+#icone-limpar {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+#linha-vertical {
+  border-right: 1px solid #757b80;
 }
 
 .search img {
+  width: 24px;
+  height: 24px;
+}
+
+.teclado {
+  margin-left: 10px;
+}
+
+.microfone {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-search {
+  margin-right: 10px;
+  background: #303134;
+  border: none;
+}
+
+.btn-search img {
   width: 16px;
   height: 16px;
 }
@@ -49,8 +111,13 @@
   align-items: center;
 }
 
-.settings svg {
+.settings img {
   width: 24px;
+}
+
+.menu-apps {
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .menu-apps svg {
@@ -97,19 +164,35 @@
 /*----------------  MENU INFERIOR  --------------------------------*/
 .menu-inferior {
   display: block;
+  background-color: chocolate;
 }
 
 .menu-inferior-container {
   display: flex;
+  align-items: center;
+  background-color: blueviolet;
+  width: 100%;
+}
+
+.links-menu-inferior {
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+.links-menu-inferior span {
+  margin-left: 10px;
 }
 
 .link-todas svg,
 .link-imagens svg,
 .link-noticias svg,
 .link-videos svg,
-.link-shopping svg {
+.link-shopping svg,
+.link-mais svg {
   width: 16px;
   height: 16px;
+  margin-left: 10px;
 }
 
 /*----------------  LINHA DE DIVISÃO  --------------------------------*/
