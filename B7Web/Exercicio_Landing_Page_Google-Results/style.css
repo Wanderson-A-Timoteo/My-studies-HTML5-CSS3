@@ -282,6 +282,88 @@
   max-width: 630px;
 }
 
+.result-default {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: arial, sans-serif;
+  font-weight: normal;
+}
+
+.result-default #bold1,
+.result-default #bold2 {
+  font-weight: bold;
+}
+
+.result-default #data {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.result-2 {
+  margin-top: 20px;
+  padding-top: 1px;
+  cursor: pointer;
+}
+
+.result-2 a {
+  text-decoration: none;
+}
+
+.result-2 a cite {
+  font-size: 15px;
+  line-height: 1.3;
+  color: #bdc1c6;
+  font-style: normal;
+}
+
+.result-2 a h3 {
+  line-height: 1.3;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #8ab4f8;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0.1);
+}
+
+.result-2 a h3:hover {
+  text-decoration: underline;
+}
+
+.separacao {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.linha {
+  width: 300px;
+  border-bottom: 1px solid #969ba160;
+}
+
+.poslinha {
+  margin-left: 10px;
+}
+
+#ponto-interrogacao {
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+#ponto-flutuante {
+  width: 3px;
+  height: 3px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+#ponto-exclamacao {
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /*----------------  FOOTER  --------------------------------*/
 #footer {
   display: flex;
