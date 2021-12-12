@@ -1,0 +1,37 @@
+input,
+a {
+  display: block;
+}
+
+/* -------      Seleção por atributo ou parametro   --------------------*/
+
+/* Para selecionar por atributo é necessario declarar ele entre chaves [] 
+Neste exemplo abaixo ele pega todos os elementos que contem o parametro required, caso tenha mais de um required será aplicado o CSS em todos.
+*/
+[required] {
+  background-color: brown;
+}
+
+/*  Para não aplicar em todos podemos cobinar a seleção com uma classe, um id entre outos, por exemplo:
+com o input. Lembrando que não pode ter espaço entre o elemento e as chaves.
+input[required] {
+  background-color: brown;
+}
+
+.classeQualquer[required] {
+  background-color: brown;
+}
+
+#idQualquer[required] {
+  background-color: brown;
+}
+ */
+
+/*Selecionando com atributo especifico*/
+input[type='password'] {
+  background-color: blueviolet;
+}
+
+input[name='endereco'] {
+  background-color: blue;
+}
