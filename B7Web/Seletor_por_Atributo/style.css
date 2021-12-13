@@ -27,6 +27,15 @@ input[required] {
 }
  */
 
+/*  Para Selecionar o atributo baseado no seu valor inicial usamos ^, lembrando que o CSS funciona em cascata, assim este será aplicado em todos os atributos href, porém podemos sobrescrever */
+a[href^='https:'] {
+  background-color: hotpink;
+}
+
+a[href^='http:'] {
+  background-color: cadetblue;
+}
+
 /*Selecionando com atributo especifico*/
 input[type='password'] {
   background-color: blueviolet;
@@ -34,4 +43,18 @@ input[type='password'] {
 
 input[name='endereco'] {
   background-color: blue;
+}
+
+/* Selecionando o atributo pelo valor dentro dele, neste caso o * indica que é para o seletor percorrer todo o valor em todos os href e onde encontrar o valor especificado aplicar o CSS.  */
+a[href*='economia'] {
+  background-color: aqua;
+}
+
+a[href*='futebol'] {
+  background-color: rgb(43, 255, 0);
+}
+
+/* Selecionando o atributo pelo valor dentro dele, neste caso o $ indica que é para o seletor percorrer todo o valor em todos os href e onde encontrar o valor especificado aplicar o CSS.  */
+a[href$='cruzeiro'] {
+  background-color: rgb(255, 102, 0);
 }
