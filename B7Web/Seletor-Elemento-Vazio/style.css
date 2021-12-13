@@ -1,0 +1,15 @@
+div,
+p {
+  margin: 20px;
+  height: 30px;
+}
+
+/* O parametro :empty percorerá todas as tags div e caso encontre alguma vazia aplicará o código CSS  */
+p:empty {
+  display: none;
+}
+
+/* O parametro :empty percorerá todas as tags div e caso encontre alguma vazia aplicará o código CSS  */
+div:empty {
+  background-color: brown;
+}
