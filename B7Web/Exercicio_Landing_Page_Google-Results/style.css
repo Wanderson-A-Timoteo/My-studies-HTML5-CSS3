@@ -545,3 +545,34 @@ svg {
     transform: translateY(0px);
   }
 }
+
+/*----------------------  Section Result  --------------------------------*/
+#result-2 {
+  width: 100%;
+}
+
+.result {
+  width: 100%;
+}
+
+.result a h3 {
+  margin-top: 5px;
+}
+
+.result-descricao {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: #bdc1c6;
+  line-height: 1.58;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.result-descricao span {
+  font-weight: bold;
+}
+
+.result-left {
+  margin-left: 50px;
+}
