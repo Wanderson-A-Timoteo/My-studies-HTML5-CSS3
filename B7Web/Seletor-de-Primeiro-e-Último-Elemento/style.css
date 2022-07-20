@@ -1,0 +1,17 @@
+div {
+  background-color: #0000FF;
+  width: 100px;
+  height: 100px;
+}
+
+/* Pega o primeiro elemento filho*/
+div:first-child {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Pega o ultimo elemento filho*/
+div:last-child {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
