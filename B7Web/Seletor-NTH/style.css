@@ -1,0 +1,16 @@
+/* 
+  Seleciona um elemento especifico, independente de onde ele esteja.
+  Seletores no CSS a contagem começa do 1, diferentemente do Javascript que começa no 0 
+  Neste exemplo estamos selecionando o segundo elemento div.
+*/
+div:nth-child(2) {
+  background-color: red;
+}
+
+
+/* 
+  Neste exmplo estamos selecionando o segundo elemento de baixo pra cima
+*/
+div:nth-last-child(2) {
+  background-color: aqua;
+}
