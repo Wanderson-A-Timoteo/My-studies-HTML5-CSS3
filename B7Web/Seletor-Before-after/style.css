@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+
+span::before {
+  content: "->";
+  background-color: brown;
+  border: 1px solid black;
+}
+
+span::after {
+  content: "<-";
+  background-color: brown;
+  border: 1px solid black;
+}
+
+div {
+  background-color: #00FF00;
+  padding: 20px;
+}
+
+div::before{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #FF0000;
+}
