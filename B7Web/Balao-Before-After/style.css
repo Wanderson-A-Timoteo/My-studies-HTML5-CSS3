@@ -1,0 +1,55 @@
+.balao {
+  background-color: #00FF;
+  display: inline-block;
+  color: #FFF;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.balao::after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-top: 20px;
+
+  border: 20px solid;
+  border-color: #0000FF #FF0000 #00FF00 #F0F0F0;
+}
+
+
+.balao2 {
+  background-color: #00FF;
+  display: inline-block;
+  color: #FFF;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.balao2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-top: 20px;
+
+  border: 20px solid;
+  border-color: #0000FF transparent transparent transparent;
+}
+
+
+.balao3 {
+  background-color: #00FF;
+  display: inline-block;
+  color: #FFF;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.balao3::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  margin-left: 15px;
+  top: 18px;
+  border: 20px solid;
+  border-color: transparent transparent transparent #0000FF;
+}
