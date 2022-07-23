@@ -5,14 +5,15 @@ body {
 }
 
 .botao {
-  background-color: rgb(30, 30, 189);
+  background: linear-gradient(-45deg, rgb(89, 89, 218), rgb(0, 102, 255));
   text-decoration: none;
   color: #FFF;
   font-size: 30px;
   padding: 30px;
   border-radius: 20px;
+  box-shadow: 0px 0px 20px #888;
 }
 
 .botao:hover {
-  background-color: rgb(0, 102, 255);
+  background: rgb(89, 89, 218);
 }
