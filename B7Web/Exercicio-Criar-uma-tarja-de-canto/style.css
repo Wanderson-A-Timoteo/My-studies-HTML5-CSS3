@@ -1,0 +1,25 @@
+
+body {
+  display: flex;
+}
+
+.tarja {
+  background: linear-gradient(#0854e0, #1a65d4);
+  width: 320px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-45deg);
+  margin-left: -100px;
+  box-shadow: 5px 5px 5px #888;
+} 
+
+a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 35px 75px;
+  text-shadow: 5px 5px 5px #000;
+  font-size: 20px;
+}
