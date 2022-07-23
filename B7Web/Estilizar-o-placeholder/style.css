@@ -1,0 +1,48 @@
+.input {
+  width: 400px;
+  height: 50px;
+  font-size: 15px;
+  color: #FF0000;
+}
+
+/* Para todos os navegadores modernos */
+.input::placeholder {
+  color: #00FF00;
+  font-weight: bold;
+}
+
+/*  
+Também pode ser feito conforme abaixo para cada navegador, se quizer podemos colocar uma cor diferente para cada navegador
+
+Para Webkit, Blink, Edge
+.input::-webkit-input-placeholder {  
+  color: #00FF00;
+  font-weight: bold;
+}
+
+
+Para Firefox 4 ao 18 com apenas um :
+.input:-moz-placeholder {  
+  color: #00FF00;
+  font-weight: bold;
+}
+
+Para Firefox 19 ou +
+.input::-moz-placeholder {  
+  color: #00FF00;
+  font-weight: bold;
+}
+
+Para Internet Explorer 10 e 11
+.input::-ms-input-placeholder {  
+  color: #00FF00;
+  font-weight: bold;
+}
+
+Para Microsoft Edge
+.input::-ms-input-placeholder {  
+  color: #00FF00;
+  font-weight: bold;
+}
+
+*/ 
