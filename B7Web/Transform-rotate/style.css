@@ -3,7 +3,7 @@
   width: 300px;
   height: 300px;
   margin: auto;
-  transform: scale(1); /* Escala normal*/
+  transform: rotate(30deg); /* rotação em 30 graus*/
 }
 
 .div2 {
@@ -11,7 +11,7 @@
   width: 300px;
   height: 300px;
   margin: auto;
-  transform: scale(2); /* Escala dobra o tamanho */
+  transform: rotate(-30deg);
 }
 
 .div3 {
@@ -19,7 +19,7 @@
   width: 300px;
   height: 300px;
   margin: auto;
-  transform: scale(1, 0.5); /* Escala diminui o tamanho */
+  transform: rotate(-90deg);
 }
 
 .div4 {
@@ -27,7 +27,7 @@
   width: 300px;
   height: 300px;
   margin: auto;
-  transform: scale(2, 1);
+  transform: rotate(-90deg);
 }
 
 .div5 {
@@ -35,7 +35,7 @@
   width: 300px;
   height: 300px;
   margin: auto;
-  transform: scale(2, 2);
+  transform: rotate(150deg);
 }
 
 .div6 {
@@ -43,7 +43,7 @@
   width: 300px;
   height: 300px;
   margin: auto;
-  transform: scaleY(1);
+  transform: rotate(-150deg);
 }
 
 .div7 {
@@ -51,7 +51,7 @@
   width: 300px;
   height: 300px;
   margin: auto;
-  transform: scale(2);
+  transform: rotate(180deg);
 }
 
 .div8 {
@@ -59,7 +59,7 @@
   width: 300px;
   height: 300px;
   margin: auto;
-  transform: scaleZ(1)
+  transform: rotate(-180deg);
 }
 
 .div9 {
@@ -67,21 +67,25 @@
   width: 300px;
   height: 300px;
   margin: auto;
-  transform: scaleZ(2);
+  transform: rotate(200deg);
 }
 
 .div10 {
   background-color: #00c3ff;
   width: 300px;
   height: 300px;
-  margin: auto;
-  transform: scaleZ(1, 0.5);
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  transform: rotate(90deg);
 }
 
 .div11 {
   background-color: #00c3ff;
   width: 300px;
-  height: 300px;
-  margin: auto;
-  transform: scale3d(2, 1);
+  height: 150px;
+  position: fixed;
+  right: -100px;
+  bottom: 50px;
+  transform: rotate(90deg);
 }
